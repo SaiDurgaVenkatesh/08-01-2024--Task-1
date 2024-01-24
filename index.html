@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 150px 200px 200px;
+            grid-template-rows: 70px 200px 200px 70px;
+            color: white;
+           justify-content: center;
+           align-content: center;
+        }
+        .n1{
+           
+            border: 1px solid black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .n11{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color:  #8c1aff;
+
+        }
+        .n22{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color:  #80ffff;
+        }
+        .n33{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color:  #4da6ff;
+
+        }
+        .n66{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color:  #8c1aff;
+
+
+        }
+        .n44{
+            background-color:  #4da6ff;
+        }
+        .n55{
+            background-color:  #4da6ff;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="n1 n11">header</div>
+        <div class="n1 n22">sidebar</div>
+        <div class="n1 n33">content-1</div>
+        <div class="n1 n44">content-2</div>
+        <div class="n1 n55">content-3</div>
+        <div class="n1 n66">footer</div>
+
+    </div>
+</body>
+</html>
